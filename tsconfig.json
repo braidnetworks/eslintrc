@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		// Paths
+		"outDir": "dist",
+		"rootDir": ".",
+
+		// Language & emit settings
+		"checkJs": true,
+		"composite": true,
+		"declarationMap": true,
+		"module": "nodenext",
+		"sourceMap": true,
+
+		// Types / strictness
+		"exactOptionalPropertyTypes": true,
+		"noUncheckedIndexedAccess": true,
+		"skipLibCheck": true,
+		"strict": true,
+	},
+	"include": [ "." ],
+	"exclude": [ "**/dist", "**/node_modules" ],
+	"references": [],
+}
